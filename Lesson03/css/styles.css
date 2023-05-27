@@ -1,0 +1,68 @@
+/*
+COLOR PALETTE
+https://coolors.co/084c61-db504a-e3b505-4f6d7a-56a3a6
+#1C3144 - Prussian Blue
+#084C61 - Midnight Green
+#DB504A - Jasper
+#E3B505 - Saffron
+#4F6D7A - Payne's Gray
+#56A3A6 - Verdigris
+#A2AEBB - Cadet Gray
+*/
+
+/* Global styles
+------------------------------------------------------- */
+body {
+    color: #1C3144;
+}
+img {
+    width: 300px;
+}
+a {
+    color: #FFBA08;
+}
+
+/* Profile styles
+------------------------------------------------------- */
+header {
+    background-color: #084C61;
+    color: #A2AEBB;
+}
+
+/* Projects styles
+------------------------------------------------------- */
+.projects {
+    background-color: #DB504A;
+}
+
+.projects .btn {
+    background-color: #1C3144;
+    padding: 8px;
+    text-decoration: none;
+    border-radius: 4px;
+}
+.projects .btn:hover {
+    background: rgb(28,49,68,.8);
+}
+
+/* Work Exlperience styles
+------------------------------------------------------- */
+.work-experience {
+    background-color: #E3B505;
+}
+.work-experience a {
+    color: #EADEDA;
+    background-color: #1C3144;
+    padding: 8px;
+    text-decoration: none;
+    border-radius: 4px;
+}
+
+/* Education styles
+------------------------------------------------------- */
+
+/* Contact Info styles
+------------------------------------------------------- */
+footer {
+    background-color: #4F6D7A;
+}
