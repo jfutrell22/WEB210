@@ -56,6 +56,9 @@ header {
     background-color: #084C61;
     color: #A2AEBB;
 }
+header h1, header h2 {
+    text-shadow: 4px 4px 8px black;
+}
 
 /* Projects styles
 ------------------------------------------------------- */
