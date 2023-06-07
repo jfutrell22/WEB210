@@ -59,6 +59,7 @@ nav ul li {
     position: relative;
     padding: 10px 15px;
     width: 19%;
+    cursor: pointer;
 }
 
 nav ul li ul {
