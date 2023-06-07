@@ -47,7 +47,39 @@ h2 {
 .content-wrap {
     width: 800px;
     margin: 0 auto;
-    padding: 60px 0;
+    padding: 20px 0 40px 0;
+}
+/* Navigation styles
+------------------------------------------------------- */
+nav {
+    background-color: #1C3144;
+}
+nav ul li { 
+    display: inline-block;
+    position: relative;
+    padding: 10px 15px;
+    width: 19%;
+}
+
+nav ul li ul {
+    padding: 0;
+    position: absolute;
+    left: -10000px;
+    width: 150px;
+}
+nav ul li:hover ul {
+    display: block;
+    left: 0px;
+    padding-top: 10px;
+}
+nav ul li ul li {
+    display: block;
+    background-color:#1C3144;
+    width: 150px;
+    text-align: left;
+}
+nav ul li ul li:hover {
+    background-color:#233d53;
 }
 
 /* Profile styles
